@@ -68,8 +68,6 @@ I'm a passionate DevOps Engineer and Full Stack Developer from Indonesia with ex
 <img src="https://github-readme-stats.vercel.app/api?username=zenbgs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0ea5e9&icon_color=0ea5e9" alt="GitHub Stats" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenbgs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0ea5e9" alt="Top Languages" height="165"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zenbgs&theme=tokyonight&hide_border=true&background=0D1117&ring=0ea5e9&fire=0ea5e9&currStreakLabel=0ea5e9" alt="GitHub Streak" width="700"/>
-
 </div>
 
 ---
