@@ -76,6 +76,6 @@ I'm a passionate DevOps Engineer and Full Stack Developer from Indonesia with ex
 
 **Let's connect and build something awesome together!**
 
-[![Email](https://img.shields.io/badge/Email-ancientlord123@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ancientlord123@gmail.com)
+[![Email](https://img.shields.io/badge/Email-zenbgsv@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zenbgsv@gmail.com)
 
 </div>
