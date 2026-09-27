@@ -27,14 +27,14 @@ I like this work because the result is measurable. A letter request that used to
 
 ## Selected work
 
-Live systems in daily use by the institutions that own them, not demos.
+Mostly client systems in daily use by the institutions that own them, plus a product of my own.
 
 | Project | What it does | Stack |
 |---|---|---|
 | [Gerbang Semar](https://man1kotamalang.sch.id) | Unified service portal for MAN 1 Kota Malang: 19+ services behind one entrance, with inclusive accessibility controls | Laravel, Vite, Tailwind |
 | [APARAT](https://surat.man1kotamalang.sch.id) | Digital correspondence system with online submission, admin disposition, and public tracking without login | Laravel, Vite, Tailwind |
 | [SIAKAD](https://siakad-porto.vercel.app) | Academic information system with three role levels, student records, course registration and transcripts, and PDF export | React, React Router, Bootstrap |
-| [Nurul Ulum](https://nurululummalangkota.sch.id) | Profile site for an Islamic boarding school founded in 1967: three branches, nine education units, online admissions | CodeIgniter, Tailwind |
+| [BantuanMU](https://bantuanmu.com) | My own product: subscription SaaS for Indonesian small businesses, with point of sale, inventory, queueing, and booking from Rp 25,000 a month | Astro, Tailwind |
 | [Madu Kencono](https://assistant.suppliermaduaslimadukencono.com) | Sales and finance automation: orders, Duitku payments, stock, WhatsApp notifications, six user roles | Fastify, Prisma, React, MySQL, Redis |
 | [OneID Express](https://oneid-express.vercel.app) | Logistics platform for remote islands around Madura, with real-time tracking and rate lookup | Next.js, MySQL, Cloudflare |
 
