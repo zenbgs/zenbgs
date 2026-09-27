@@ -100,10 +100,17 @@ Every post is available in **[English](https://zenbgs.github.io/en/blogs/)** and
 
 <div align="center">
 
-<!-- Jangan tambahkan override warna (background, ring, fire, currStreakLabel).
-     Kombinasi itu membuat seluruh teks kartu jadi tidak terbaca.
-     Cukup theme dan hide_border. -->
-<img src="https://streak-stats.demolab.com/?user=zenbgs&theme=tokyonight&hide_border=true&card_width=480" alt="Contribution streak for zenbgs" height="170"/>
+<!-- disable_animations=true WAJIB ada.
+     Secara bawaan kartu ini memakai `animation: fadein ... forwards`
+     yang mulai dari opacity 0. GitHub memuat gambar lewat <img>, dan di
+     konteks itu animasi CSS tidak dijalankan, sehingga seluruh angka
+     dan label tetap tak terlihat. Yang tampil hanya garis pemisah.
+     Kartunya terlihat normal kalau URL-nya dibuka langsung di peramban,
+     jadi masalah ini mudah terlewat saat diuji.
+
+     Jangan pula menambah override warna (background, ring, fire,
+     currStreakLabel); kombinasi itu juga membuat teks tidak terbaca. -->
+<img src="https://streak-stats.demolab.com/?user=zenbgs&theme=tokyonight&hide_border=true&disable_animations=true" alt="Contribution streak for zenbgs" height="170"/>
 
 ![Followers](https://img.shields.io/github/followers/zenbgs?style=for-the-badge&logo=github&logoColor=white&color=0ea5e9&labelColor=0D1117)
 ![Stars](https://img.shields.io/github/stars/zenbgs?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&color=8b5cf6&labelColor=0D1117)
