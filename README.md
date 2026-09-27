@@ -33,7 +33,7 @@ Live systems in daily use by the institutions that own them, not demos.
 |---|---|---|
 | [Gerbang Semar](https://man1kotamalang.sch.id) | Unified service portal for MAN 1 Kota Malang: 19+ services behind one entrance, with inclusive accessibility controls | Laravel, Vite, Tailwind |
 | [APARAT](https://surat.man1kotamalang.sch.id) | Digital correspondence system with online submission, admin disposition, and public tracking without login | Laravel, Vite, Tailwind |
-| [LibAsia](https://perpustakaan.asia.ac.id) | Library portal for Institut Teknologi dan Bisnis Asia Malang, unifying OPAC, digital library, and seven e-journals | CodeIgniter, Bootstrap, MySQL |
+| [SIAKAD](https://siakad-porto.vercel.app) | Academic information system with three role levels, student records, course registration and transcripts, and PDF export | React, React Router, Bootstrap |
 | [Nurul Ulum](https://nurululummalangkota.sch.id) | Profile site for an Islamic boarding school founded in 1967: three branches, nine education units, online admissions | CodeIgniter, Tailwind |
 | [Madu Kencono](https://assistant.suppliermaduaslimadukencono.com) | Sales and finance automation: orders, Duitku payments, stock, WhatsApp notifications, six user roles | Fastify, Prisma, React, MySQL, Redis |
 | [OneID Express](https://oneid-express.vercel.app) | Logistics platform for remote islands around Madura, with real-time tracking and rate lookup | Next.js, MySQL, Cloudflare |
@@ -46,26 +46,13 @@ More at **[zenbgs.github.io/projects](https://zenbgs.github.io/projects/)**
 
 Everything below appears in a project you can open from the table above.
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+<div align="center">
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+[![Tech stack](https://skillicons.dev/icons?i=laravel,php,nodejs,fastify,prisma,mysql,redis&perline=7)](https://zenbgs.github.io/projects/)
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,astro,ts,js,tailwind,bootstrap&perline=7)](https://zenbgs.github.io/projects/)
+[![Infra](https://skillicons.dev/icons?i=docker,nginx,linux,githubactions,git,cloudflare,vite&perline=7)](https://zenbgs.github.io/projects/)
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+</div>
 
 **Working knowledge:** Kubernetes, AWS, GCP, Python, PostgreSQL, MongoDB
 
@@ -85,10 +72,39 @@ Every post is available in **[English](https://zenbgs.github.io/en/blogs/)** and
 
 ## GitHub
 
+<!--
+  CATATAN SOAL KARTU STATISTIK
+
+  Kartu github-readme-stats sebelumnya di sini, tapi instance publiknya
+  (github-readme-stats.vercel.app) dihentikan pemiliknya dan menjawab
+  503 DEPLOYMENT_PAUSED. Yang tampil hanya pesan error, dan itu di luar
+  kendali kita. Beberapa layanan sejenis juga sudah mati:
+    github-profile-trophy.vercel.app          402
+    github-readme-activity-graph.vercel.app   402
+
+  Yang di bawah ini terverifikasi hidup saat dipasang:
+    streak-stats.demolab.com   kartu streak, instance resmi proyeknya
+    shields.io                 badge, membaca API GitHub langsung
+
+  Untuk mengembalikan kartu statistik lengkap (commit, stars, PR), cara
+  yang tahan lama adalah men-deploy instance sendiri, persis seperti
+  yang dipakai github-readme-mwendwa.vercel.app:
+    1. Fork github.com/anuraghazra/github-readme-stats
+    2. Import fork itu ke Vercel milik sendiri, deploy apa adanya
+    3. Di Settings > Environment Variables, tambahkan PAT_1 berisi
+       GitHub personal access token (classic, scope public_repo saja)
+    4. Pakai domain hasil deploy sendiri:
+       https://<nama-projek>.vercel.app/api?username=zenbgs&show_icons=true
+       https://<nama-projek>.vercel.app/api/top-langs/?username=zenbgs&layout=compact
+-->
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=zenbgs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0ea5e9&icon_color=0ea5e9" alt="GitHub statistics for zenbgs" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenbgs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0ea5e9" alt="Most used languages" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=zenbgs&theme=tokyonight&hide_border=true&background=0D1117&ring=0ea5e9&fire=8b5cf6&currStreakLabel=0ea5e9" alt="Contribution streak for zenbgs" height="170"/>
+
+![Followers](https://img.shields.io/github/followers/zenbgs?style=for-the-badge&logo=github&logoColor=white&color=0ea5e9&labelColor=0D1117)
+![Stars](https://img.shields.io/github/stars/zenbgs?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&color=8b5cf6&labelColor=0D1117)
+![Location](https://img.shields.io/badge/Based_in-Malang,_Indonesia-0ea5e9?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117)
 
 </div>
 
